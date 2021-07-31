@@ -4,13 +4,13 @@ jobs:
   build-game:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
+    - name: Checkout 📥
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
         lfs: true
 
-    - name: Cache
+    - name: Cache ♻️
       uses: actions/cache@v2
       with:
         path: Library
@@ -19,16 +19,28 @@ jobs:
           Library-WebGL
           Library-
 
-    - uses: game-ci/unity-builder@v2
+    - name: Build WebGL Version 🔨
+      uses: game-ci/unity-builder@v2
       env:
         UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
       with:
         targetPlatform: WebGL
 
-    - uses: actions/upload-artifact@v2
+    - name: Upload Artifact 📦
+      uses: actions/upload-artifact@v2
       with:
         name: Build
         path: build
 
     - name: Set env
       run: echo "RELEASE_VERSION=$(echo ${GITHUB_SHA} | cut -c1-8)" >> $GITHUB_ENV
+
+    - name: Publish to itch.io 🚀
+      uses: josephbmanley/butler-publish-itchio-action@master
+      env:
+        BUTLER_CREDENTIALS: ${{ secrets.BUTLER_API_KEY }}
+        CHANNEL: web
+        ITCH_GAME: lowrezjam-2021
+        ITCH_USER: skosnowich
+        PACKAGE: build/WebGL/WebGL
+        VERSION: ${{ env.RELEASE_VERSION }}
