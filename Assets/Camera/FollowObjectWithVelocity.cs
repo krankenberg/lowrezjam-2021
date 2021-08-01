@@ -8,7 +8,7 @@ namespace Camera
     public class FollowObjectWithVelocity : MonoBehaviour
     {
         public float MaxLookAhead = 5F;
-        public float MaxVelocity = 3F;
+        public float MaxVelocity = 10F;
 
         private float _currentLookAhead;
         private UnityEngine.Camera _camera;
@@ -26,15 +26,11 @@ namespace Camera
 
         private void LateUpdate()
         {
-//            var currentVelocity = CarMovement.GetCurrentVelocity();
-//            var shipControlTransform = CarMovement.transform;
-//            var shipsPosition = shipControlTransform.position;
-//
-//            _currentLookAhead = Mathf.Lerp(_currentLookAhead, currentVelocity / MaxVelocity * MaxLookAhead, Time.deltaTime);
-//            var position = transform.localPosition;
-//            transform.localPosition = new Vector3(shipsPosition.x, shipsPosition.y, position.z) + shipControlTransform.up * _currentLookAhead;
-//            transform.rotation = shipControlTransform.rotation;
-            _cameraTransform.position = _carTransform.position + new Vector3(0, 9.237604F, 0);
+            var currentVelocity = _carMovement.GetCurrentVelocity();
+            var carsPosition = _carTransform.position;
+
+            _currentLookAhead = Mathf.Lerp(_currentLookAhead, currentVelocity / MaxVelocity * MaxLookAhead, Time.deltaTime);
+            _cameraTransform.localPosition = new Vector3(carsPosition.x, 9.237604F, carsPosition.z) + _carTransform.forward * _currentLookAhead;
         }
     }
 }
