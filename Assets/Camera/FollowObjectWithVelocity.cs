@@ -1,4 +1,3 @@
-using System;
 using Car;
 using UnityEngine;
 
@@ -7,6 +6,8 @@ namespace Camera
     [RequireComponent(typeof(UnityEngine.Camera))]
     public class FollowObjectWithVelocity : MonoBehaviour
     {
+        private const float CameraDistanceToFloor = 9.237604F; // x = (32 / tan(fovDeg / 2)) / PixelsPerUnit
+
         public float MaxLookAhead = 5F;
         public float MaxVelocity = 10F;
 
@@ -30,7 +31,7 @@ namespace Camera
             var carsPosition = _carTransform.position;
 
             _currentLookAhead = Mathf.Lerp(_currentLookAhead, currentVelocity / MaxVelocity * MaxLookAhead, Time.deltaTime);
-            _cameraTransform.localPosition = new Vector3(carsPosition.x, 9.237604F, carsPosition.z) + _carTransform.forward * _currentLookAhead;
+            _cameraTransform.localPosition = new Vector3(carsPosition.x, CameraDistanceToFloor, carsPosition.z) + _carTransform.forward * _currentLookAhead;
         }
     }
 }
