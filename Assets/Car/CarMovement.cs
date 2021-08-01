@@ -31,7 +31,7 @@ namespace Car
             var vertical = Input.GetAxisRaw("Vertical");
             var horizontal = Input.GetAxisRaw("Horizontal");
 
-            if (Math.Abs(vertical) > GlobalGameState.TOLERANCE)
+            if (Math.Abs(vertical) > GlobalGameState.Tolerance)
             {
                 _currentVelocity += vertical * AccelerationSpeed;
             }
