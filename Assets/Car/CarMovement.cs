@@ -28,6 +28,8 @@ namespace Car
 
         private void Update()
         {
+            _currentVelocity = GetCurrentVelocity();
+            
             var vertical = Input.GetAxisRaw("Vertical");
             var horizontal = Input.GetAxisRaw("Horizontal");
 
@@ -74,6 +76,11 @@ namespace Car
                 
                 _transform.Rotate(Vector3.up, yAngleDiff, Space.World);
             }
+        }
+
+        public float GetCurrentVelocity()
+        {
+            return _rigidbody.velocity.magnitude * (_currentVelocity > 0 ? 1 : -1);
         }
     }
 }
