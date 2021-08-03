@@ -322,3 +322,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxLookAhead: 3
   MaxVelocity: 8
+  CollisionDistance: 0.3
