@@ -47,3 +47,6 @@ TagManager:
   - name: Cars
     uniqueID: 482997597
     locked: 0
+  - name: Buildings
+    uniqueID: 4254323099
+    locked: 0
