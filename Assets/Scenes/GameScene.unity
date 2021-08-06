@@ -4106,8 +4106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7becd04d64a51c942a4dc6292bbae2b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AccelerationSpeed: 0.05
-  NaturalDecelerationSpeed: 0.025
+  AccelerationSpeed: 5
+  NaturalDecelerationSpeed: 5
   MaxVelocity: 10
   MaxBackwardsVelocity: 5
   RotationSpeed: 120

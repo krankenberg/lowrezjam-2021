@@ -29,17 +29,17 @@ namespace Car
         private void Update()
         {
             _currentVelocity = GetCurrentVelocity();
-            
+
             var vertical = Input.GetAxisRaw("Vertical");
             var horizontal = Input.GetAxisRaw("Horizontal");
 
             if (Math.Abs(vertical) > GlobalGameState.Tolerance)
             {
-                _currentVelocity += vertical * AccelerationSpeed;
+                _currentVelocity += vertical * AccelerationSpeed * Time.deltaTime;
             }
             else
             {
-                _currentVelocity = Mathf.Lerp(_currentVelocity, 0, NaturalDecelerationSpeed);
+                _currentVelocity = Mathf.MoveTowards(_currentVelocity, 0, NaturalDecelerationSpeed * Time.deltaTime);
             }
 
             _currentVelocity = Mathf.Clamp(_currentVelocity, -MaxBackwardsVelocity, MaxVelocity);
@@ -73,7 +73,7 @@ namespace Car
                 var currentYAngle = _transform.rotation.eulerAngles.y;
                 var newYAngle = Mathf.RoundToInt(currentYAngle / LockingAngle) * LockingAngle;
                 var yAngleDiff = newYAngle - currentYAngle;
-                
+
                 _transform.Rotate(Vector3.up, yAngleDiff, Space.World);
             }
         }
