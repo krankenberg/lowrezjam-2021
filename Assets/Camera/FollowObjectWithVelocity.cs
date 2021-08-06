@@ -12,6 +12,8 @@ namespace Camera
         public float MaxLookAhead = 5F;
         public float MaxVelocity = 10F;
         public float CollisionDistance = 1F;
+        public float DampTime = 0.5F;
+        public float DampMaxSpeed = 0.1F;
 
         private float _currentLookAhead;
         private UnityEngine.Camera _camera;
@@ -19,6 +21,7 @@ namespace Camera
         private Transform _carTransform;
         private Transform _cameraTransform;
         private RaycastHit[] _hits;
+        private Vector3 _currentDampVelocity;
 
         private void Start()
         {
@@ -35,10 +38,11 @@ namespace Camera
             var directionModifier = currentVelocity > 0 ? 1 : -1;
             var carsPosition = _carTransform.position;
 
-            _currentLookAhead = Mathf.Lerp(_currentLookAhead, currentVelocity / MaxVelocity * MaxLookAhead, Time.fixedDeltaTime);
+            _currentLookAhead = currentVelocity / MaxVelocity * MaxLookAhead;
 
             var collisionBox = new Vector3(CollisionDistance, CollisionDistance * 4, CollisionDistance);
-            var collisionCount = Physics.BoxCastNonAlloc(_cameraTransform.position, collisionBox, _carTransform.forward * directionModifier, _hits, Quaternion.identity, Math.Abs(_currentLookAhead));
+            var collisionCount = Physics.BoxCastNonAlloc(_cameraTransform.position, collisionBox, _carTransform.forward * directionModifier, _hits,
+                Quaternion.identity, Math.Abs(_currentLookAhead));
             if (collisionCount > 0)
             {
                 var lowestDistance = float.MaxValue;
@@ -56,7 +60,9 @@ namespace Camera
 
             var carPositionOnCameraLayer = new Vector3(carsPosition.x, CameraDistanceToFloor, carsPosition.z);
             var targetPosition = carPositionOnCameraLayer + _carTransform.forward * _currentLookAhead;
-            _cameraTransform.localPosition = targetPosition;
+
+            _cameraTransform.localPosition = Vector3.SmoothDamp(_cameraTransform.localPosition, targetPosition, ref _currentDampVelocity, DampTime,
+                DampMaxSpeed, Time.fixedDeltaTime);
         }
     }
 }
