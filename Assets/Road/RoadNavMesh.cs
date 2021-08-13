@@ -14,11 +14,14 @@ namespace Road
 
         public bool RecreateRoadNavMesh;
 
+        public bool NavigationMeshInitialized;
+
         public List<NavigationPoint> NavigationPoints;
 
         private void Start()
         {
             CreateRoadNavMesh();
+            NavigationMeshInitialized = true;
         }
 
         private void OnValidate()
@@ -34,6 +37,23 @@ namespace Road
                 RecreateRoadNavMesh = false;
                 CreateRoadNavMesh();
             }
+        }
+
+        public NavigationPoint GetNextOnMesh(Vector3 position)
+        {
+            NavigationPoint closestPoint = null;
+            var closestPointDistance = float.MaxValue;
+            foreach (var navigationPoint in NavigationPoints)
+            {
+                var distance = Vector3.Distance(position, navigationPoint.Position);
+                if (distance < closestPointDistance)
+                {
+                    closestPointDistance = distance;
+                    closestPoint = navigationPoint;
+                }
+            }
+
+            return closestPoint;
         }
 
         private void CreateCopiedTileNavigationPoints()
@@ -107,6 +127,11 @@ namespace Road
                                 ParkingLot = navigationPoint.ParkingLot,
                                 InitialIndex = i
                             };
+                            newNavigationPoint.Position = new Vector3(
+                                Round(newNavigationPoint.Position.x),
+                                0,
+                                Round(newNavigationPoint.Position.z)
+                            );
                             NavigationPoints.Add(newNavigationPoint);
                             tilesNewNavigationPoints[i] = newNavigationPoint;
                         }
@@ -126,22 +151,28 @@ namespace Road
             }
 
             // Merge Points
-            var pointsToBeRemoved = new List<int>();
+            var pointsToBeRemoved = new Dictionary<NavigationPoint, NavigationPoint>();
             for (var i = 0; i < NavigationPoints.Count; i++)
             {
-                if (!pointsToBeRemoved.Contains(i))
+                var point = NavigationPoints[i];
+                if (!pointsToBeRemoved.ContainsKey(point))
                 {
-                    var point = NavigationPoints[i];
                     for (var otherIndex = i + 1; otherIndex < NavigationPoints.Count; otherIndex++)
                     {
-                        if (!pointsToBeRemoved.Contains(otherIndex))
+                        var otherPoint = NavigationPoints[otherIndex];
+                        if (!pointsToBeRemoved.ContainsKey(otherPoint))
                         {
-                            var otherPoint = NavigationPoints[otherIndex];
                             if (Vector3.Distance(point.Position, otherPoint.Position) < 0.05F)
                             {
+                                foreach (var previousPoint in otherPoint.PreviousPoints)
+                                {
+                                    previousPoint.NextPoints.Remove(otherPoint);
+                                    previousPoint.NextPoints.Add(point);
+                                }
+
                                 point.NextPoints.AddRange(otherPoint.NextPoints);
                                 point.PreviousPoints.AddRange(otherPoint.PreviousPoints);
-                                pointsToBeRemoved.Add(otherIndex);
+                                pointsToBeRemoved.Add(otherPoint, point);
                             }
                         }
                     }
@@ -150,11 +181,16 @@ namespace Road
 
             for (var i = NavigationPoints.Count - 1; i >= 0; i--)
             {
-                if (pointsToBeRemoved.Contains(i))
+                if (pointsToBeRemoved.ContainsKey(NavigationPoints[i]))
                 {
                     NavigationPoints.RemoveAt(i);
                 }
             }
+        }
+
+        public float Round(float value)
+        {
+            return Mathf.Round(value * 10F) / 10F;
         }
 
         private void OnDrawGizmosSelected()
@@ -171,10 +207,16 @@ namespace Road
                     {
                         foreach (var navigationPointConnectedPoint in navigationPoint.NextPoints)
                         {
+                            Gizmos.color = Color.green;
                             Gizmos.DrawLine(navigationPoint.Position, navigationPointConnectedPoint.Position);
                             Gizmos.DrawLine(navigationPointConnectedPoint.Position,
                                 navigationPointConnectedPoint.Position + Quaternion.Euler(0, 10F, 0) *
                                 (navigationPoint.Position - navigationPointConnectedPoint.Position).normalized / 2F);
+                            if (NavigationPoints.Contains(navigationPointConnectedPoint))
+                            {
+                                Gizmos.color = Color.magenta;
+                                Gizmos.DrawWireSphere(navigationPointConnectedPoint.Position, 0.15F);
+                            }
                         }
                     }
                 }
