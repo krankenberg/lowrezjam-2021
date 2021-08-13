@@ -195,6 +195,7 @@ namespace Road
 
         private void OnDrawGizmosSelected()
         {
+#if UNITY_EDITOR
             if (NavigationPoints != null)
             {
                 foreach (var navigationPoint in NavigationPoints)
@@ -221,6 +222,7 @@ namespace Road
                     }
                 }
             }
+#endif
         }
     }
 }
