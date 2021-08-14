@@ -3542,6 +3542,516 @@ Tilemap:
   m_GameObject: {fileID: 822419030}
   m_Enabled: 1
   m_Tiles:
+  - first: {x: -1, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 24
+      m_TileSpriteIndex: 24
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 4, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 5, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 28
+      m_TileSpriteIndex: 28
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 10, y: -10, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 8
+      m_TileSpriteIndex: 21
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 30
+      m_TileSpriteIndex: 30
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 4, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 5, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 20
+      m_TileSpriteIndex: 10
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 10, y: -9, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 4, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 5, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 10, y: -8, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -2, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 0, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 3, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 4, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 5, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 10, y: -7, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -6, y: -6, z: 0}
     second:
       serializedVersion: 2
@@ -3585,8 +4095,8 @@ Tilemap:
   - first: {x: -2, y: -6, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 12
-      m_TileSpriteIndex: 5
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3662,11 +4172,61 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 10, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -6, y: -5, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 8
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 21
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3676,7 +4236,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 9
-      m_TileSpriteIndex: 7
+      m_TileSpriteIndex: 20
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3782,6 +4342,56 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 10, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -6, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -3806,7 +4416,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 10
-      m_TileSpriteIndex: 10
+      m_TileSpriteIndex: 18
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3893,6 +4503,56 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 5, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 10, y: -4, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 1
@@ -4016,7 +4676,57 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 15
-      m_TileSpriteIndex: 15
+      m_TileSpriteIndex: 17
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 10, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4065,8 +4775,8 @@ Tilemap:
   - first: {x: -2, y: -2, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 7
-      m_TileSpriteIndex: 3
+      m_TileIndex: 22
+      m_TileSpriteIndex: 19
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4133,6 +4843,56 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 5, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 10, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 1
@@ -4262,6 +5022,46 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 6, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: -1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -6, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -4286,7 +5086,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 6
-      m_TileSpriteIndex: 9
+      m_TileSpriteIndex: 16
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4306,7 +5106,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 15
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4377,6 +5177,46 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 1
       m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4502,6 +5342,46 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 6, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 14
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 21
+      m_TileSpriteIndex: 22
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: 1, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -6, y: 2, z: 0}
     second:
       serializedVersion: 2
@@ -4622,6 +5502,46 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 6, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 24
+      m_TileSpriteIndex: 24
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 29
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 25
+      m_TileSpriteIndex: 25
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: 2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -6, y: 3, z: 0}
     second:
       serializedVersion: 2
@@ -4735,8 +5655,48 @@ Tilemap:
   - first: {x: 5, y: 3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 11
+      m_TileSpriteIndex: 11
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 6, y: 3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 30
+      m_TileSpriteIndex: 30
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 7, y: 3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 8, y: 3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 23
+      m_TileSpriteIndex: 23
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 9, y: 3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 26
+      m_TileSpriteIndex: 26
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -4984,9 +5944,9 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 16
+  - m_RefCount: 18
     m_Data: {fileID: 11400000, guid: 564706b3abd2c5a4b81ebcd0bc59f3b8, type: 2}
-  - m_RefCount: 93
+  - m_RefCount: 136
     m_Data: {fileID: 11400000, guid: a5b41cdfbd6352549b06e4ca1be722a4, type: 2}
   - m_RefCount: 15
     m_Data: {fileID: 11400000, guid: 078d672d0457b624ea90e55ea9b42234, type: 2}
@@ -4998,59 +5958,119 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 78a03e4442b62a34dbbf60f9d618c4dd, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 28c79c8db5ccbd443b00b8c0454959b1, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 0b180efd81c616c45b7b74ebc1c69765, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 91f00813d2f94ef49bb539912a43b635, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: f5a679f3b8ecacb4494d4c77b3ace4ee, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: a7096c3c6dcbf17458546d93ef558072, type: 2}
-  - m_RefCount: 2
+  - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 91ae24a153902db4e87a8d881f383fa3, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 5ba9c8611944fc8468418ddb5b69931b, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 31d64d24f5c90ff4dbb83ecc91e844fa, type: 2}
   - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 2104d58fffb20be4ea51814bb2fe65f7, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 03a750559cd54ef45898e500088f591d, type: 2}
-  m_TileSpriteArray:
-  - m_RefCount: 16
-    m_Data: {fileID: 5663061954668274717, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: -7775419718026629507, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+    m_Data: {fileID: 11400000, guid: b652ae4a7213ee64c9a2a8a06a607527, type: 2}
+  - m_RefCount: 10
+    m_Data: {fileID: 11400000, guid: 146467e68f672df409f26aea12c1569e, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 0b180efd81c616c45b7b74ebc1c69765, type: 2}
+  - m_RefCount: 10
+    m_Data: {fileID: 11400000, guid: 46fb0aa89d54edc42a954b8007a93cf3, type: 2}
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: afa6729491b5b4c46bed8944ea1f6924, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: ff8c7f856ea50494aa54ac479375c37a, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: ea93f5b806f171e4a8e1b1fc4037b57c, type: 2}
+  - m_RefCount: 12
+    m_Data: {fileID: 11400000, guid: 6e4b4817d327b7b4e9e02f0ad270432a, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 1ec33f0e4bb224f43b3d2081a8b19e6f, type: 2}
+  - m_RefCount: 10
+    m_Data: {fileID: 11400000, guid: 87abbb0136967e64b91b9150e0f2b3c3, type: 2}
+  - m_RefCount: 2
+    m_Data: {fileID: 11400000, guid: 61d7741962e478f459e3e1383357c215, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 18
+    m_Data: {fileID: 5663061954668274717, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 15
     m_Data: {fileID: 6007627129536956325, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 11442893378838041, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 3
     m_Data: {fileID: -7486092956772349302, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 9061651696941551919, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1762573714345474896, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 8642771837104280003, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 8233071653059976297, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: -317771678647371661, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -3627264120405484348, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
-  - m_RefCount: 2
+    m_Data: {fileID: 8621815960616643281, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 3
     m_Data: {fileID: -396035294860175646, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -781294158744790408, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -4815885190406460031, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
-  - m_RefCount: 93
+  - m_RefCount: 136
     m_Data: {fileID: 7477116942032994148, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
   - m_RefCount: 1
+    m_Data: {fileID: -1762573714345474896, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -317771678647371661, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 1
     m_Data: {fileID: -2426843357703420916, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -3627264120405484348, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 11442893378838041, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 8642771837104280003, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: -7775419718026629507, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 10
+    m_Data: {fileID: -3642208251427772964, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 10
+    m_Data: {fileID: 8758155216525550727, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: 5043307788359985916, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -6468910726198660926, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 1237908169197521079, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 12
+    m_Data: {fileID: -4827537604736492380, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -3697150339598545061, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 10
+    m_Data: {fileID: -5587653796134901919, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
+  - m_RefCount: 2
+    m_Data: {fileID: 5778961287088506303, guid: d0b0434101db91f4183d12e56fdc9766, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 144
+  - m_RefCount: 240
     m_Data:
       e00: 1
       e01: 0
@@ -5069,15 +6089,15 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 144
+  - m_RefCount: 240
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
-    m_Data: {r: 4e-45, g: 4e-45, b: 4e-45, a: 4e-45}
+    m_Data: {r: 6e-45, g: 6e-45, b: 6e-45, a: 6e-45}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: -6, y: -8, z: 0}
-  m_Size: {x: 14, y: 14, z: 1}
+  m_Origin: {x: -6, y: -10, z: 0}
+  m_Size: {x: 17, y: 16, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -5118,18 +6138,22 @@ MonoBehaviour:
     - Position: {x: 4, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 4, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 2, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 2, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 2104d58fffb20be4ea51814bb2fe65f7, type: 2}
@@ -5140,66 +6164,82 @@ MonoBehaviour:
     - Position: {x: 4, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 010000000b000000
     - Position: {x: 4.6, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 6, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 0, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 040000000f000000
     - Position: {x: 1.4, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 2, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 6, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 070000000e000000
     - Position: {x: 4, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0d000000
     - Position: {x: 0, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 2.8, y: 0, z: 2.8}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0a000000
     - Position: {x: 2, y: 0, z: 1.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 4, y: 0, z: 1.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0c000000
     - Position: {x: 3.4, y: 0, z: 3}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0d000000
     - Position: {x: 2, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 08000000
     - Position: {x: 4, y: 0, z: 3.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 09000000
     - Position: {x: 3, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     TrafficLightPhases:
     - TimeInPhase: 10
@@ -5219,18 +6259,22 @@ MonoBehaviour:
     - Position: {x: 0.00000023841858, y: 0, z: 1.9999999}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 6, y: 0, z: 2.0000002}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 6, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 0, y: 0, z: 3.9999998}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 6eb8b511c0b4f41449e05ec9844a9234, type: 2}
@@ -5241,34 +6285,42 @@ MonoBehaviour:
     - Position: {x: 0, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 1.8, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 4, y: 0, z: 4.2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 4, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 2, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 1.4, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 06000000
     - Position: {x: 0, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 3.4, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 31d64d24f5c90ff4dbb83ecc91e844fa, type: 2}
@@ -5279,34 +6331,42 @@ MonoBehaviour:
     - Position: {x: 4, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 4.2, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 4, y: 0, z: 3.2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 3.4, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 04000000
     - Position: {x: 2.6, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 2, y: 0, z: 3.2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 06000000
     - Position: {x: 1.8, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 2, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 0b180efd81c616c45b7b74ebc1c69765, type: 2}
@@ -5317,114 +6377,142 @@ MonoBehaviour:
     - Position: {x: 4, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 010000000a0000001a000000
     - Position: {x: 4.6, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 6, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 0, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 180000000400000014000000
     - Position: {x: 1.4, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 2, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 6, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 190000000e00000017000000
     - Position: {x: 0, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 3.4, y: 0, z: 2.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 09000000
     - Position: {x: 2.6, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 3.4, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 13000000
     - Position: {x: 2.6, y: 0, z: 3.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 10000000
     - Position: {x: 2.0000002, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 1b0000000d00000011000000
     - Position: {x: 1.4000002, y: 0, z: 4.6000004}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 4.6000004, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0f000000
     - Position: {x: 4, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 3.4, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0f000000
     - Position: {x: 2.6, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 12000000
     - Position: {x: 3.6, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 15000000
     - Position: {x: 2.4, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 16000000
     - Position: {x: 1.4, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0b000000
     - Position: {x: 4.6, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 1.4, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 4.6, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 08000000
     - Position: {x: 1.6, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 4.4, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 4, y: 0, z: 1.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0f000000
     - Position: {x: 2, y: 0, z: 4.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     TrafficLightPhases:
     - TimeInPhase: 10
@@ -5447,66 +6535,82 @@ MonoBehaviour:
     - Position: {x: 0.00000023841858, y: 0, z: 1.9999999}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 010000000b000000
     - Position: {x: 1.4000002, y: 0, z: 1.4000001}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 2.0000002, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 1.9999999, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 040000000f000000
     - Position: {x: 1.4, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 0, y: 0, z: 3.9999998}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 4, y: 0, z: 0.00000023841858}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 070000000e000000
     - Position: {x: 4, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0d000000
     - Position: {x: 3.9999998, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 2.8, y: 0, z: 3.2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0a000000
     - Position: {x: 1.6, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 1.6000001, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0c000000
     - Position: {x: 3, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0d000000
     - Position: {x: 4, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 08000000
     - Position: {x: 3.6, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 09000000
     - Position: {x: 2, y: 0, z: 3}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     TrafficLightPhases:
     - TimeInPhase: 10
@@ -5526,66 +6630,82 @@ MonoBehaviour:
     - Position: {x: 2.0000002, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 010000000b000000
     - Position: {x: 1.4000002, y: 0, z: 4.6000004}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 0, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 6, y: 0, z: 3.9999998}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 040000000f000000
     - Position: {x: 4.6000004, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 4, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 0, y: 0, z: 2.0000002}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 070000000e000000
     - Position: {x: 1.9999999, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0d000000
     - Position: {x: 6, y: 0, z: 1.9999998}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 3.2, y: 0, z: 3.2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0a000000
     - Position: {x: 4, y: 0, z: 4.3999996}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 2, y: 0, z: 4.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0c000000
     - Position: {x: 2.6, y: 0, z: 3}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0d000000
     - Position: {x: 4, y: 0, z: 1.9999999}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 08000000
     - Position: {x: 2, y: 0, z: 2.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 09000000
     - Position: {x: 3, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     TrafficLightPhases:
     - TimeInPhase: 10
@@ -5605,66 +6725,82 @@ MonoBehaviour:
     - Position: {x: 6, y: 0, z: 3.9999998}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 010000000b000000
     - Position: {x: 4.6, y: 0, z: 4.5999994}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 4, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 3.9999998, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 040000000f000000
     - Position: {x: 4.6, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 6, y: 0, z: 1.9999999}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 2.0000002, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 070000000e000000
     - Position: {x: 2, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0d000000
     - Position: {x: 1.9999999, y: 0, z: 0.00000023841858}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 3.2, y: 0, z: 2.8}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0a000000
     - Position: {x: 4.3999996, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 4.4, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0c000000
     - Position: {x: 3, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 0d000000
     - Position: {x: 2, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 08000000
     - Position: {x: 2.4, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 09000000
     - Position: {x: 4, y: 0, z: 3}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     TrafficLightPhases:
     - TimeInPhase: 10
@@ -5684,34 +6820,42 @@ MonoBehaviour:
     - Position: {x: 1.9999999, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 2, y: 0, z: 4.2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 4.2, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 6, y: 0, z: 2.0000002}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 6, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 4.5999994, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 06000000
     - Position: {x: 3.9999998, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 2.6, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 6e800ae30aca43c459bbebd370732413, type: 2}
@@ -5722,34 +6866,42 @@ MonoBehaviour:
     - Position: {x: 6, y: 0, z: 3.9999998}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 4.2000003, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 1.9999999, y: 0, z: 1.8000003}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 1.9999998, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 3.9999998, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 4.6, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 06000000
     - Position: {x: 6, y: 0, z: 1.9999998}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 2.6, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: a7096c3c6dcbf17458546d93ef558072, type: 2}
@@ -5760,34 +6912,42 @@ MonoBehaviour:
     - Position: {x: 3.9999998, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 4, y: 0, z: 1.8}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 1.8000003, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 0.00000023841858, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 0, y: 0, z: 2.0000002}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 1.4000001, y: 0, z: 1.4000002}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 06000000
     - Position: {x: 1.9999999, y: 0, z: 0.00000023841858}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     - Position: {x: 3.4, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 03a750559cd54ef45898e500088f591d, type: 2}
@@ -5798,34 +6958,42 @@ MonoBehaviour:
     - Position: {x: 0.00000023841858, y: 0, z: 1.9999999}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 2, y: 0, z: 1.8000002}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 3.2, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 4, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 04000000
     - Position: {x: 4, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 3.2, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 06000000
     - Position: {x: 2, y: 0, z: 4.2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 0, y: 0, z: 3.9999998}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 28c79c8db5ccbd443b00b8c0454959b1, type: 2}
@@ -5836,34 +7004,42 @@ MonoBehaviour:
     - Position: {x: 6, y: 0, z: 3.9999998}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 4, y: 0, z: 4.2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 2.8, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 2, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 04000000
     - Position: {x: 2, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 2.8, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 06000000
     - Position: {x: 4, y: 0, z: 1.8}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 6, y: 0, z: 1.9999999}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
     TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 5ba9c8611944fc8468418ddb5b69931b, type: 2}
@@ -5874,35 +7050,929 @@ MonoBehaviour:
     - Position: {x: 2.0000002, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 01000000
     - Position: {x: 1.8000003, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 02000000
     - Position: {x: 2, y: 0, z: 2.8}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 03000000
     - Position: {x: 2.6, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 04000000
     - Position: {x: 3.4, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 05000000
     - Position: {x: 4, y: 0, z: 2.8}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 06000000
     - Position: {x: 4.2000003, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 07000000
     - Position: {x: 4, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
+      Highway: 0
       NextPointsIndices: 
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 87abbb0136967e64b91b9150e0f2b3c3, type: 2}
+    Copy: 0
+    CopiedIndex: 0
+    CopiedRotatedBy: 0
+    NavigationPoints:
+    - Position: {x: 0, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    - Position: {x: 6, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 6, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 0, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 146467e68f672df409f26aea12c1569e, type: 2}
+    Copy: 1
+    CopiedIndex: 15
+    CopiedRotatedBy: 90
+    NavigationPoints:
+    - Position: {x: 1.9999999, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    - Position: {x: 2.0000002, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 4, y: 0, z: 0.00000023841858}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 3.9999998, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 46fb0aa89d54edc42a954b8007a93cf3, type: 2}
+    Copy: 1
+    CopiedIndex: 15
+    CopiedRotatedBy: 180
+    NavigationPoints:
+    - Position: {x: 6, y: 0, z: 3.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    - Position: {x: 0, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 0, y: 0, z: 2.0000002}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 6, y: 0, z: 1.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 6e4b4817d327b7b4e9e02f0ad270432a, type: 2}
+    Copy: 1
+    CopiedIndex: 15
+    CopiedRotatedBy: 270
+    NavigationPoints:
+    - Position: {x: 3.9999998, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    - Position: {x: 4, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 2.0000002, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 1.9999999, y: 0, z: 0.00000023841858}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: b652ae4a7213ee64c9a2a8a06a607527, type: 2}
+    Copy: 0
+    CopiedIndex: 0
+    CopiedRotatedBy: 0
+    NavigationPoints:
+    - Position: {x: 0, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 1.8000002, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 00000000
+    - Position: {x: 4, y: 0, z: 4.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 07000000
+    - Position: {x: 4, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    - Position: {x: 2.0000002, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 05000000
+    - Position: {x: 1.4000003, y: 0, z: 4.5999994}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 06000000
+    - Position: {x: 0.00000023841858, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 3.4, y: 0, z: 2.6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: aa198183a7ebdf14a956cb02659e54a9, type: 2}
+    Copy: 1
+    CopiedIndex: 19
+    CopiedRotatedBy: 90
+    NavigationPoints:
+    - Position: {x: 1.9999999, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 2, y: 0, z: 4.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 00000000
+    - Position: {x: 4.2, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 07000000
+    - Position: {x: 6, y: 0, z: 2.0000002}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    - Position: {x: 6, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 05000000
+    - Position: {x: 4.5999994, y: 0, z: 4.5999994}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 06000000
+    - Position: {x: 3.9999998, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 2.6, y: 0, z: 2.6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: c36fd9cb102609540ab1e58f7eb64cd1, type: 2}
+    Copy: 1
+    CopiedIndex: 19
+    CopiedRotatedBy: 180
+    NavigationPoints:
+    - Position: {x: 6, y: 0, z: 3.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 4.2, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 00000000
+    - Position: {x: 1.9999999, y: 0, z: 1.8000003}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 07000000
+    - Position: {x: 1.9999998, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    - Position: {x: 3.9999995, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 05000000
+    - Position: {x: 4.5999994, y: 0, z: 1.4000005}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 06000000
+    - Position: {x: 6, y: 0, z: 1.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 2.6, y: 0, z: 3.4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: ff8c7f856ea50494aa54ac479375c37a, type: 2}
+    Copy: 1
+    CopiedIndex: 19
+    CopiedRotatedBy: 270
+    NavigationPoints:
+    - Position: {x: 3.9999998, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 4, y: 0, z: 1.8000002}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 00000000
+    - Position: {x: 1.8000003, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 07000000
+    - Position: {x: 0.00000023841858, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    - Position: {x: 0.00000023841858, y: 0, z: 2.0000005}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 05000000
+    - Position: {x: 1.4000006, y: 0, z: 1.4000006}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 06000000
+    - Position: {x: 1.9999999, y: 0, z: 0.00000047683716}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 3.4, y: 0, z: 3.4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 1ec33f0e4bb224f43b3d2081a8b19e6f, type: 2}
+    Copy: 0
+    CopiedIndex: 0
+    CopiedRotatedBy: 0
+    NavigationPoints:
+    - Position: {x: 0, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    - Position: {x: 1.8000002, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 07000000
+    - Position: {x: 4, y: 0, z: 4.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 03000000
+    - Position: {x: 4, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 2.0000002, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 1.4000003, y: 0, z: 4.5999994}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 04000000
+    - Position: {x: 0.00000023841858, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 05000000
+    - Position: {x: 3.4, y: 0, z: 2.6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 0249299194e53a249884bab1bb5c03d9, type: 2}
+    Copy: 1
+    CopiedIndex: 23
+    CopiedRotatedBy: 90
+    NavigationPoints:
+    - Position: {x: 1.9999999, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    - Position: {x: 2, y: 0, z: 4.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 07000000
+    - Position: {x: 4.2, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 03000000
+    - Position: {x: 6, y: 0, z: 2.0000002}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 6, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 4.5999994, y: 0, z: 4.5999994}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 04000000
+    - Position: {x: 3.9999998, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 05000000
+    - Position: {x: 2.6, y: 0, z: 2.6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 7ff1bcf6b1c15e54b9f8703e44c01107, type: 2}
+    Copy: 1
+    CopiedIndex: 23
+    CopiedRotatedBy: 180
+    NavigationPoints:
+    - Position: {x: 6, y: 0, z: 3.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    - Position: {x: 4.2, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 07000000
+    - Position: {x: 1.9999999, y: 0, z: 1.8000003}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 03000000
+    - Position: {x: 1.9999998, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 3.9999995, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 4.5999994, y: 0, z: 1.4000005}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 04000000
+    - Position: {x: 6, y: 0, z: 1.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 05000000
+    - Position: {x: 2.6, y: 0, z: 3.4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: ea93f5b806f171e4a8e1b1fc4037b57c, type: 2}
+    Copy: 1
+    CopiedIndex: 23
+    CopiedRotatedBy: 270
+    NavigationPoints:
+    - Position: {x: 3.9999998, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 01000000
+    - Position: {x: 4, y: 0, z: 1.8000002}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 07000000
+    - Position: {x: 1.8000003, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 03000000
+    - Position: {x: 0.00000023841858, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 0.00000023841858, y: 0, z: 2.0000005}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 
+    - Position: {x: 1.4000006, y: 0, z: 1.4000006}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 04000000
+    - Position: {x: 1.9999999, y: 0, z: 0.00000047683716}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 05000000
+    - Position: {x: 3.4, y: 0, z: 3.4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 1
+      NextPointsIndices: 02000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: ef5c68079d9b4b7479ac6f34437b2fb3, type: 2}
+    Copy: 0
+    CopiedIndex: 0
+    CopiedRotatedBy: 0
+    NavigationPoints:
+    - Position: {x: 4.6, y: 0, z: 3}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 01000000
+    - Position: {x: 4.2, y: 0, z: 4.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 020000000a000000
+    - Position: {x: 3, y: 0, z: 4.6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 1.8, y: 0, z: 4.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 040000000c000000
+    - Position: {x: 1.4, y: 0, z: 3}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 05000000
+    - Position: {x: 1.8, y: 0, z: 1.8}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 060000000e000000
+    - Position: {x: 3, y: 0, z: 1.4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 07000000
+    - Position: {x: 4.2, y: 0, z: 1.8}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 0000000008000000
+    - Position: {x: 6, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 6, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 01000000
+    - Position: {x: 4, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 2, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 0, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 0, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 05000000
+    - Position: {x: 2, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 4, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 07000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 1d95da76e4bcf9245adf7e218a4e2251, type: 2}
+    Copy: 0
+    CopiedIndex: 0
+    CopiedRotatedBy: 0
+    NavigationPoints:
+    - Position: {x: 4, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 02000000
+    - Position: {x: 2, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 05000000
+    - Position: {x: 2.8, y: 0, z: 2.8}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 0, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 0, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 1.2, y: 0, z: 1.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 04000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 4c5a584befdf363469ffb39557f3539a, type: 2}
+    Copy: 0
+    CopiedIndex: 0
+    CopiedRotatedBy: 0
+    NavigationPoints:
+    - Position: {x: 4, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 2, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 6, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 4.4, y: 0, z: 4.8}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 0000000001000000
+    - Position: {x: 0, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 07000000
+    - Position: {x: 0, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 06000000
+    - Position: {x: 6, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 1.4, y: 0, z: 3}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 06000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 711754cefdbfe6541b07d0cb169dfb91, type: 2}
+    Copy: 1
+    CopiedIndex: 28
+    CopiedRotatedBy: 90
+    NavigationPoints:
+    - Position: {x: 0.00000023841858, y: 0, z: 1.9999999}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 02000000
+    - Position: {x: 0, y: 0, z: 3.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 05000000
+    - Position: {x: 2.8, y: 0, z: 3.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 3.9999998, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 1.9999999, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 1.2, y: 0, z: 4.7999997}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 04000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: afa6729491b5b4c46bed8944ea1f6924, type: 2}
+    Copy: 1
+    CopiedIndex: 28
+    CopiedRotatedBy: 180
+    NavigationPoints:
+    - Position: {x: 2.0000002, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 02000000
+    - Position: {x: 4, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 05000000
+    - Position: {x: 3.2, y: 0, z: 3.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 6, y: 0, z: 1.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 6, y: 0, z: 3.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 4.8, y: 0, z: 4.7999997}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 04000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 53fab25cb5501ce45876dc17afbd95b4, type: 2}
+    Copy: 1
+    CopiedIndex: 28
+    CopiedRotatedBy: 270
+    NavigationPoints:
+    - Position: {x: 6, y: 0, z: 3.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 02000000
+    - Position: {x: 6, y: 0, z: 1.9999999}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 05000000
+    - Position: {x: 3.2, y: 0, z: 2.8}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 1.9999999, y: 0, z: 0.00000023841858}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 3.9999998, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 4.7999997, y: 0, z: 1.2}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 04000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 4ba21ca9cc6b68c43a2c2c1e464c1af2, type: 2}
+    Copy: 1
+    CopiedIndex: 29
+    CopiedRotatedBy: 90
+    NavigationPoints:
+    - Position: {x: 6, y: 0, z: 2.0000002}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 6, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 4, y: 0, z: 0.00000023841858}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 4.8, y: 0, z: 1.6000001}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 0000000001000000
+    - Position: {x: 3.9999998, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 07000000
+    - Position: {x: 1.9999999, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 06000000
+    - Position: {x: 2.0000002, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 3, y: 0, z: 4.6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 06000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: 61d7741962e478f459e3e1383357c215, type: 2}
+    Copy: 1
+    CopiedIndex: 29
+    CopiedRotatedBy: 180
+    NavigationPoints:
+    - Position: {x: 1.9999998, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 3.9999998, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 0, y: 0, z: 2.0000002}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 1.5999998, y: 0, z: 1.1999999}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 0000000001000000
+    - Position: {x: 6, y: 0, z: 1.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 07000000
+    - Position: {x: 6, y: 0, z: 3.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 06000000
+    - Position: {x: 0, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 4.6, y: 0, z: 2.9999998}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 06000000
+    TrafficLightPhases: []
+  - Tile: {fileID: 11400000, guid: d2a19814d30e9d342a7889479a4672f5, type: 2}
+    Copy: 1
+    CopiedIndex: 29
+    CopiedRotatedBy: 270
+    NavigationPoints:
+    - Position: {x: 0.00000023841858, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 0, y: 0, z: 2.0000002}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 2.0000002, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 03000000
+    - Position: {x: 1.2, y: 0, z: 4.4}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 0000000001000000
+    - Position: {x: 1.9999999, y: 0, z: 0.00000023841858}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 07000000
+    - Position: {x: 3.9999998, y: 0, z: 0}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 06000000
+    - Position: {x: 4, y: 0, z: 6}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 
+    - Position: {x: 3, y: 0, z: 1.4000001}
+      Occupied: 0
+      ParkingLot: 0
+      Highway: 0
+      NextPointsIndices: 06000000
     TrafficLightPhases: []
   RecreateCopiedTileNavigationPoints: 0
   RecreateRoadNavMesh: 0
@@ -5911,986 +7981,1942 @@ MonoBehaviour:
   - Position: {x: -34, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -34, y: 0, z: -25.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -31.8, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -30, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -30, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -31.4, y: 0, z: -25.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -32, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -33.4, y: 0, z: -27.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -32, y: 0, z: -18}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -34, y: 0, z: -18}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -32, y: 0, z: -12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -34, y: 0, z: -12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -30, y: 0, z: -8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -31.8, y: 0, z: -8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -34, y: 0, z: -10.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -31.4, y: 0, z: -10.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -30, y: 0, z: -10}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -33.4, y: 0, z: -8.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -28, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -28.6, y: 0, z: -25.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -24, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -25.4, y: 0, z: -25.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -26, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -28, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -24, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -26.8, y: 0, z: -26.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -26, y: 0, z: -25.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -28, y: 0, z: -25.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -27.4, y: 0, z: -27}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -26, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -28, y: 0, z: -27.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -27, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -24, y: 0, z: -20}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -25.8, y: 0, z: -20}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -28, y: 0, z: -22.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -25.4, y: 0, z: -22.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -24, y: 0, z: -22}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -27.4, y: 0, z: -20.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -24, y: 0, z: -10}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -24, y: 0, z: -8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -22.2, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -20, y: 0, z: -25.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -20, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -22, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -22.6, y: 0, z: -25.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -20.6, y: 0, z: -27.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -20, y: 0, z: -22.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -22.2, y: 0, z: -20}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -22.6, y: 0, z: -22.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -20.6, y: 0, z: -20.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -18, y: 0, z: -10}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -18, y: 0, z: -8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -18, y: 0, z: 4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -20, y: 0, z: 4.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -21.2, y: 0, z: 4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -22, y: 0, z: 3.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -22, y: 0, z: 2.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -21.2, y: 0, z: 2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -20, y: 0, z: 1.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -18, y: 0, z: 2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -12, y: 0, z: -10}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -12, y: 0, z: -8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -12, y: 0, z: 2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -12, y: 0, z: 4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: -10, y: 0, z: -30}
+  - Position: {x: -10, y: 0, z: -48}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: -10.2, y: 0, z: -32}
+  - Position: {x: -10, y: 0, z: -49.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: -10, y: 0, z: -33.2}
+  - Position: {x: -7.8, y: 0, z: -52}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: -9.4, y: 0, z: -34}
+  - Position: {x: -6, y: 0, z: -52}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: -8.6, y: 0, z: -34}
+  - Position: {x: -6, y: 0, z: -50}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: -8, y: 0, z: -33.2}
+  - Position: {x: -7.4, y: 0, z: -49.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: -7.8, y: 0, z: -32}
+  - Position: {x: -8, y: 0, z: -48}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -9.4, y: 0, z: -51.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -8, y: 0, z: -42}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -10, y: 0, z: -42}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -8, y: 0, z: -36}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -10, y: 0, z: -36}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: -30}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -10, y: 0, z: -30}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -6, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.4, y: 0, z: -25.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.4, y: 0, z: -28.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -6, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8.8, y: 0, z: -27.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.6, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.6, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -9, y: 0, z: -26.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -9.6, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: -27}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: -18}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: -18}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: -12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: -12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.4, y: 0, z: -10.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -6, y: 0, z: -10}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10.6, y: 0, z: -10.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -6, y: 0, z: -8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8.6, y: 0, z: -9.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -9.4, y: 0, z: -10.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8.6, y: 0, z: -10.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -9.4, y: 0, z: -8.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: -6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10.6, y: 0, z: -7.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.4, y: 0, z: -7.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: -6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8.6, y: 0, z: -7.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -9.4, y: 0, z: -7.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8.4, y: 0, z: -8.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -9.6, y: 0, z: -9.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10.6, y: 0, z: -9.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.4, y: 0, z: -9.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10.6, y: 0, z: -8.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.4, y: 0, z: -8.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10.4, y: 0, z: -10}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.6, y: 0, z: -8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: -10.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: -7.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: -8, y: 0, z: -0}
+  - Position: {x: -8, y: 0, z: 0}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: -10, y: 0, z: -0}
+  - Position: {x: -10, y: 0, z: 0}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10.6, y: 0, z: 1.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: 6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10.6, y: 0, z: 4.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: 2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: 6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -9.2, y: 0, z: 3.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10.4, y: 0, z: 4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10.4, y: 0, z: 2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -9, y: 0, z: 2.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: 4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8.4, y: 0, z: 2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: 3}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: 12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: 12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -6, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.8, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: 13.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -7.4, y: 0, z: 13.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -6, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: -9.4, y: 0, z: 15.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -4, y: 0, z: -54}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -2, y: 0, z: -54}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -2.8, y: 0, z: -56.8}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 0, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 0, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: -1.2, y: 0, z: -55.2}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: -4.4, y: 0, z: -52.8}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 0, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 0, y: 0, z: -50}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: -1.4, y: 0, z: -51}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 0, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 0, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 0, y: 0, z: -10}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 0, y: 0, z: -8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 0, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 0, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 6, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 6, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 6, y: 0, z: -50}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 6, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
     NextPointsIndices: 
   - Position: {x: 6, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 6, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 6, y: 0, z: -10}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 6, y: 0, z: -8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 6, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 6, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 12, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 12, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 12, y: 0, z: -50}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 12, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
     NextPointsIndices: 
   - Position: {x: 12, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 12, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 7.8, y: 0, z: -10}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 10, y: 0, z: -7.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 10, y: 0, z: -6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 8, y: 0, z: -6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 7.4, y: 0, z: -7.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 9.4, y: 0, z: -9.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: 10, y: 0, z: -0}
+  - Position: {x: 10, y: 0, z: 0}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: 8, y: 0, z: -0}
+  - Position: {x: 8, y: 0, z: 0}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 10, y: 0, z: 6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 8, y: 0, z: 6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 10, y: 0, z: 12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 8, y: 0, z: 12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 10.6, y: 0, z: 13.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 12, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 7.4, y: 0, z: 13.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 12, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 10, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 8.8, y: 0, z: 14.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 8, y: 0, z: 13.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 10, y: 0, z: 13.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 9.4, y: 0, z: 15}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 8, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 10, y: 0, z: 15.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 9, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 18, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 18, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 18, y: 0, z: -50}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 18, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
     NextPointsIndices: 
   - Position: {x: 18, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 18, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 18, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 18, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 24, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 24, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 24, y: 0, z: -50}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 24, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
     NextPointsIndices: 
   - Position: {x: 19.8, y: 0, z: -28}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: -25.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: -24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 19.4, y: 0, z: -25.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 21.4, y: 0, z: -27.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: -18}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: -18}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 24, y: 0, z: -14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22.6, y: 0, z: -13.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: -12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22.6, y: 0, z: -16.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 24, y: 0, z: -16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: -12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: -14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 21.2, y: 0, z: -15.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22.4, y: 0, z: -16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22.4, y: 0, z: -14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 21, y: 0, z: -14.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: -16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20.4, y: 0, z: -14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: -15}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: -6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: -6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: 22, y: 0, z: -0}
+  - Position: {x: 22, y: 0, z: 0}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
-  - Position: {x: 20, y: 0, z: -0}
+  - Position: {x: 20, y: 0, z: 0}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: 6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: 6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: 12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: 12}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22.6, y: 0, z: 13.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 24, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 19.4, y: 0, z: 13.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 24, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20.8, y: 0, z: 14.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: 13.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: 13.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 21.4, y: 0, z: 15}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 22, y: 0, z: 15.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 21, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 30, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 30, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 30, y: 0, z: -50}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 30, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
     NextPointsIndices: 
   - Position: {x: 30, y: 0, z: -16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 30, y: 0, z: -14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 30, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 30, y: 0, z: 16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 36, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 36, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 36, y: 0, z: -50}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 36, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
     NextPointsIndices: 
   - Position: {x: 32, y: 0, z: -16.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 33.2, y: 0, z: -16}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 34, y: 0, z: -15.4}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 34, y: 0, z: -14.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 33.2, y: 0, z: -14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 32, y: 0, z: -13.8}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 31.8, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 34, y: 0, z: 16.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 34, y: 0, z: 18}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 32, y: 0, z: 18}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 31.4, y: 0, z: 16.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 33.4, y: 0, z: 14.6}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 36, y: 0, z: 22}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 34.6, y: 0, z: 22.6}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 34, y: 0, z: 24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 34.6, y: 0, z: 19.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 36, y: 0, z: 20}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 32, y: 0, z: 24}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 32, y: 0, z: 22}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 33.2, y: 0, z: 20.8}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 34.4, y: 0, z: 20}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 34.4, y: 0, z: 22}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 33, y: 0, z: 21.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 32, y: 0, z: 20}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 32.4, y: 0, z: 22}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 34, y: 0, z: 21}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 34, y: 0, z: 30}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 32, y: 0, z: 30}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 34.2, y: 0, z: 32}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 34, y: 0, z: 33.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 33.4, y: 0, z: 34}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 32.6, y: 0, z: 34}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 32, y: 0, z: 33.2}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
     NextPointsIndices: 
   - Position: {x: 31.8, y: 0, z: 32}
     Occupied: 0
     ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 42, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 42, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 42, y: 0, z: -50}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 42, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 38, y: 0, z: 18}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 40, y: 0, z: 18}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 39.2, y: 0, z: 15.2}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 42, y: 0, z: 14}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 42, y: 0, z: 16}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 40.8, y: 0, z: 16.8}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 37.6, y: 0, z: 19.2}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 42, y: 0, z: 20}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 42, y: 0, z: 22}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 40.6, y: 0, z: 21}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 0
+    NextPointsIndices: 
+  - Position: {x: 48, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 48, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 48, y: 0, z: -50}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 48, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 48, y: 0, z: 14}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 48, y: 0, z: 16}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 48, y: 0, z: 22}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 48, y: 0, z: 20}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 54, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 54, y: 0, z: -56}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 49.8, y: 0, z: -52}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: -49.8}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: -48}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: -48}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 49.4, y: 0, z: -49.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 51.4, y: 0, z: -51.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: -42}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: -42}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: -36}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: -36}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: -30}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: -30}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: -24}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: -24}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: -18}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: -18}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: -12}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: -12}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: -6}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: -6}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: 0}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: 0}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: 6}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: 6}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 50, y: 0, z: 12}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: 12}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 52, y: 0, z: 13.8}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 49.8, y: 0, z: 16}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 49.4, y: 0, z: 13.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 51.4, y: 0, z: 15.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 54, y: 0, z: 22}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 54, y: 0, z: 20}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 55.8, y: 0, z: -58}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -55.8}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -54}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: -54}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 55.4, y: 0, z: -55.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 57.4, y: 0, z: -57.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -48}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: -48}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -42}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: -42}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -36}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: -36}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -30}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: -30}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -24}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: -24}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -18}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: -18}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -12}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: -12}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: -6}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: -6}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: 0}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: 0}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: 6}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: 6}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: 12}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: 12}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: 18}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 56, y: 0, z: 18}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 58, y: 0, z: 19.8}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 55.8, y: 0, z: 22}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 55.4, y: 0, z: 19.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
+    NextPointsIndices: 
+  - Position: {x: 57.4, y: 0, z: 21.4}
+    Occupied: 0
+    ParkingLot: 0
+    Highway: 1
     NextPointsIndices: 
 --- !u!1 &841216067
 GameObject:

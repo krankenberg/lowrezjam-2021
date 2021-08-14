@@ -20,6 +20,8 @@ namespace Road
 
         public bool ParkingLot;
 
+        public bool Highway;
+
         [FormerlySerializedAs("ConnectedPointsIndices")]
         public List<int> NextPointsIndices;
     }

@@ -15,6 +15,7 @@ namespace Car
         public float LookAheadRange = 2F;
         public float MaxAcceleration = 0.1F;
         public float TrafficLightStoppingRange = 0.8F;
+        public float HighwaySpeedModifier = 1.5F;
 
         private RoadNavMesh _roadNavMesh;
         private Transform _transform;
@@ -73,9 +74,12 @@ namespace Car
                     }
                     else
                     {
-                        _rigidbody.velocity = direction * Mathf.MoveTowards(_rigidbody.velocity.magnitude, Speed, MaxAcceleration * Time.deltaTime);
+                        var speedModifier = _currentTargetNavigationPoint.Highway ? HighwaySpeedModifier : 1;
+                        _rigidbody.velocity = direction * Mathf.MoveTowards(
+                            _rigidbody.velocity.magnitude, Speed * speedModifier, MaxAcceleration * speedModifier * Time.deltaTime
+                        );
                         _rigidbody.angularVelocity = Vector3.zero;
-                        _rigidbody.MoveRotation(Quaternion.RotateTowards(_transform.rotation, Quaternion.Euler(0, angle, 0), MaxRotationSpeed));
+                        _rigidbody.MoveRotation(Quaternion.RotateTowards(_transform.rotation, Quaternion.Euler(0, angle, 0), MaxRotationSpeed * speedModifier));
                     }
                 }
             }

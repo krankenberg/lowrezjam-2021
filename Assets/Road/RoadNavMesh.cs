@@ -93,6 +93,7 @@ namespace Road
                             Occupied = navigationPoint.Occupied,
                             ParkingLot = navigationPoint.ParkingLot,
                             NextPointsIndices = new List<int>(navigationPoint.NextPointsIndices),
+                            Highway = navigationPoint.Highway,
                         };
                         newNavigationPoint.Position = RotatePointAroundPivot(newNavigationPoint.Position, tileNavigationPoints.CopiedRotatedBy);
                         tileNavigationPoints.NavigationPoints.Add(newNavigationPoint);
@@ -148,7 +149,8 @@ namespace Road
                                 PreviousPoints = new List<NavigationPoint>(),
                                 Occupied = navigationPoint.Occupied,
                                 ParkingLot = navigationPoint.ParkingLot,
-                                InitialIndex = i
+                                InitialIndex = i,
+                                Highway = navigationPoint.Highway
                             };
                             newNavigationPoint.Position = new Vector3(
                                 Round(newNavigationPoint.Position.x),
@@ -224,6 +226,7 @@ namespace Road
                                     junction.ReplaceNavigationPoint(otherPoint, point);
                                 }
 
+                                point.Highway = point.Highway || otherPoint.Highway;
                                 point.NextPoints.AddRange(otherPoint.NextPoints);
                                 point.PreviousPoints.AddRange(otherPoint.PreviousPoints);
                                 pointsToBeRemoved.Add(otherPoint, point);
@@ -262,7 +265,7 @@ namespace Road
                     {
                         foreach (var navigationPointConnectedPoint in navigationPoint.NextPoints)
                         {
-                            Gizmos.color = Color.green;
+                            Gizmos.color = navigationPoint.Highway ? Color.cyan : Color.green;
                             Gizmos.DrawLine(navigationPoint.Position, navigationPointConnectedPoint.Position);
                             Gizmos.DrawLine(navigationPointConnectedPoint.Position,
                                 navigationPointConnectedPoint.Position + Quaternion.Euler(0, 10F, 0) *

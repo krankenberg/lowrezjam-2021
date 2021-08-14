@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ba74027fa15a74db4329b9ae522593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxLookAhead: 4
+  MaxLookAhead: 5.5
   MaxVelocity: 10
   CollisionDistance: 0.3
   DampTime: 0.1
