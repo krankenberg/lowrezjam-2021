@@ -27,18 +27,22 @@ namespace Car
         {
             if (_spawnedCars <= CarCount)
             {
-                var navigationPoint = RoadNavMesh.NavigationPoints[Random.Range(0, RoadNavMesh.NavigationPoints.Count)];
-                if (_spawnedPositions.Count == 0
-                    || _spawnedPositions.Min(position => Vector3.Distance(position, navigationPoint.Position)) > MinDistance)
+                for (int i = 0; i < 5; i++)
                 {
-                    var nextPoint = navigationPoint.NextPoints[0];
-                    var rotation = Quaternion.AngleAxis(Vector3.SignedAngle(Vector3.forward, nextPoint.Position - navigationPoint.Position, Vector3.up),
-                        Vector3.up);
+                    var navigationPoint = RoadNavMesh.NavigationPoints[Random.Range(0, RoadNavMesh.NavigationPoints.Count)];
+                    if (_spawnedPositions.Count == 0
+                        || _spawnedPositions.Min(position => Vector3.Distance(position, navigationPoint.Position)) > MinDistance)
+                    {
+                        var nextPoint = navigationPoint.NextPoints[0];
+                        var rotation = Quaternion.AngleAxis(Vector3.SignedAngle(Vector3.forward, nextPoint.Position - navigationPoint.Position, Vector3.up),
+                            Vector3.up);
 
-                    Instantiate(CarPrefab, navigationPoint.Position, rotation);
+                        Instantiate(CarPrefab, navigationPoint.Position, rotation);
 
-                    _spawnedPositions.Add(navigationPoint.Position);
-                    _spawnedCars++;
+                        _spawnedPositions.Add(navigationPoint.Position);
+                        _spawnedCars++;
+                        return;
+                    }
                 }
             }
         }

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace Road
 {
@@ -29,6 +30,8 @@ namespace Road
                 }
             }
 
+            _currentPhase = Random.Range(0, _phases.Count);
+
             _timeInCurrentPhase = 500;
         }
 
@@ -55,14 +58,14 @@ namespace Road
 
         public void Update(float deltaTime)
         {
-            _timeInCurrentPhase += deltaTime;
+            _timeInCurrentPhase += deltaTime * 2;
 
             var currentPhase = _phases[_currentPhase];
 
             if (_timeInCurrentPhase > currentPhase.TimeInPhase + currentPhase.TimeUntilNextPhase)
             {
                 _inAfterPhase = false;
-                _timeInCurrentPhase = 0;
+                _timeInCurrentPhase = _timeInCurrentPhase > 500 ? Random.Range(0F, 3F) : 0;
                 _currentPhase = (_currentPhase + 1) % _phases.Count;
 
                 foreach (var allJunctionPoint in _allJunctionPoints)

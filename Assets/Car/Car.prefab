@@ -53,8 +53,10 @@ MonoBehaviour:
   PositionReachedDistance: 0.25
   MaxRotationSpeed: 5
   LockingAngle: 15
-  LookAheadRange: 1
+  LookAheadRange: 0.8
   MaxAcceleration: 3
+  MaxBrakingSpeed: 10
+  TrafficLightStoppingRange: 1.2
 --- !u!54 &2840759265203998272
 Rigidbody:
   m_ObjectHideFlags: 0

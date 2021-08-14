@@ -2216,7 +2216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RoadNavMesh: {fileID: 822419034}
-  CarCount: 16
+  CarCount: 40
   CarPrefab: {fileID: 2840759265203998276, guid: 1d976d1c3c5a6b44d9485e6a80ba75b6, type: 3}
   MinDistance: 5
 --- !u!1 &583119284
@@ -5317,7 +5317,7 @@ MonoBehaviour:
     - Position: {x: 4, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 010000000a0000000f000000
+      NextPointsIndices: 010000000a0000001a000000
     - Position: {x: 4.6, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
@@ -5329,7 +5329,7 @@ MonoBehaviour:
     - Position: {x: 0, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 020000000400000014000000
+      NextPointsIndices: 180000000400000014000000
     - Position: {x: 1.4, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
@@ -5341,7 +5341,7 @@ MonoBehaviour:
     - Position: {x: 6, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 070000000e00000017000000
+      NextPointsIndices: 190000000e00000017000000
     - Position: {x: 0, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
@@ -5365,7 +5365,7 @@ MonoBehaviour:
     - Position: {x: 2.0000002, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 050000000d00000011000000
+      NextPointsIndices: 1b0000000d00000011000000
     - Position: {x: 1.4000002, y: 0, z: 4.6000004}
       Occupied: 0
       ParkingLot: 0
@@ -5410,7 +5410,35 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 08000000
-    TrafficLightPhases: []
+    - Position: {x: 1.6, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 02000000
+    - Position: {x: 4.4, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 07000000
+    - Position: {x: 4, y: 0, z: 1.6}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 0f000000
+    - Position: {x: 2, y: 0, z: 4.4}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 05000000
+    TrafficLightPhases:
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 1b000000110000000e0000001900000018000000040000000a0000001a000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0d0000001b0000001100000017000000140000000a0000001a00000001000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0d0000001b000000190000001700000014000000180000001a00000001000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 110000000e00000019000000170000001400000018000000040000000a000000
   - Tile: {fileID: 11400000, guid: 78a03e4442b62a34dbbf60f9d618c4dd, type: 2}
     Copy: 1
     CopiedIndex: 1
@@ -6317,6 +6345,22 @@ MonoBehaviour:
     ParkingLot: 0
     NextPointsIndices: 
   - Position: {x: -7.4, y: 0, z: -8.6}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -10.4, y: 0, z: -10}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -7.6, y: 0, z: -8}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -8, y: 0, z: -10.4}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -10, y: 0, z: -7.6}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 

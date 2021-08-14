@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using Road;
 using UnityEngine;
@@ -13,12 +14,15 @@ namespace Car
         public int LockingAngle = 15;
         public float LookAheadRange = 2F;
         public float MaxAcceleration = 0.1F;
+        public float TrafficLightStoppingRange = 0.8F;
 
         private RoadNavMesh _roadNavMesh;
         private Transform _transform;
         private NavigationPoint _currentTargetNavigationPoint;
         private Rigidbody _rigidbody;
         private RaycastHit[] _hits;
+        private Queue<NavigationPoint> _nextTargets;
+        private NavigationPoint _lastEnqueuedPoint;
 
         private void Start()
         {
@@ -26,6 +30,7 @@ namespace Car
             _rigidbody = GetComponent<Rigidbody>();
             _roadNavMesh = GameObject.FindWithTag("Tilemap").GetComponent<RoadNavMesh>();
             _hits = new RaycastHit[5];
+            _nextTargets = new Queue<NavigationPoint>();
         }
 
         private void Update()
@@ -36,21 +41,32 @@ namespace Car
                 if (_currentTargetNavigationPoint == null)
                 {
                     _currentTargetNavigationPoint = _roadNavMesh.GetNextOnMesh(transformPosition);
+                    _lastEnqueuedPoint = EnqueueRandomPoint(_currentTargetNavigationPoint);
+                    _lastEnqueuedPoint = EnqueueRandomPoint(_lastEnqueuedPoint);
+                    _lastEnqueuedPoint = EnqueueRandomPoint(_lastEnqueuedPoint);
+                    _lastEnqueuedPoint = EnqueueRandomPoint(_lastEnqueuedPoint);
+                    _lastEnqueuedPoint = EnqueueRandomPoint(_lastEnqueuedPoint);
                 }
                 else
                 {
-                    if (Vector3.Distance(transformPosition, _currentTargetNavigationPoint.Position) < PositionReachedDistance)
+                    var distanceToTarget = Vector3.Distance(transformPosition, _currentTargetNavigationPoint.Position);
+                    if (distanceToTarget < PositionReachedDistance)
                     {
-                        var position = Random.Range(0, _currentTargetNavigationPoint.NextPoints.Count);
-                        _currentTargetNavigationPoint = _currentTargetNavigationPoint.NextPoints[position];
+                        _currentTargetNavigationPoint = _nextTargets.Dequeue();
+                        _lastEnqueuedPoint = EnqueueRandomPoint(_lastEnqueuedPoint);
+                        distanceToTarget = Vector3.Distance(transformPosition, _currentTargetNavigationPoint.Position);
                     }
 
                     var direction = (_currentTargetNavigationPoint.Position - transformPosition).normalized;
+                    var angle = SnapRotationToLockingAngle(Vector3.SignedAngle(Vector3.forward, direction, Vector3.up));
+
+                    var reachedRedTrafficLight = distanceToTarget <= TrafficLightStoppingRange && _nextTargets.Peek().Occupied;
 
                     var collisionBox = new Vector3(.5F, .5F, 1);
-                    var collisionCount = Physics.BoxCastNonAlloc(transformPosition, collisionBox, direction, _hits,
-                        _transform.rotation, LookAheadRange);
-                    if (collisionCount > 0 && _hits.Take(collisionCount).Any(raycastHit => raycastHit.transform != _transform))
+                    var collisionCount = Physics.BoxCastNonAlloc(
+                        transformPosition + _transform.forward * 0.1F, collisionBox, direction, _hits, _transform.rotation, LookAheadRange
+                    );
+                    if (reachedRedTrafficLight || collisionCount > 0 && _hits.Take(collisionCount).Any(raycastHit => raycastHit.transform != _transform))
                     {
                         _rigidbody.velocity = Vector3.zero;
                         _rigidbody.angularVelocity = Vector3.zero;
@@ -58,12 +74,19 @@ namespace Car
                     else
                     {
                         _rigidbody.velocity = direction * Mathf.MoveTowards(_rigidbody.velocity.magnitude, Speed, MaxAcceleration * Time.deltaTime);
-                        var angle = SnapRotationToLockingAngle(Vector3.SignedAngle(Vector3.forward, direction, Vector3.up));
                         _rigidbody.angularVelocity = Vector3.zero;
                         _rigidbody.MoveRotation(Quaternion.RotateTowards(_transform.rotation, Quaternion.Euler(0, angle, 0), MaxRotationSpeed));
                     }
                 }
             }
+        }
+
+        private NavigationPoint EnqueueRandomPoint(NavigationPoint currentPoint)
+        {
+            var position = Random.Range(0, currentPoint.NextPoints.Count);
+            var enqueuedPoint = currentPoint.NextPoints[position];
+            _nextTargets.Enqueue(enqueuedPoint);
+            return enqueuedPoint;
         }
 
         private float SnapRotationToLockingAngle(float angle)
