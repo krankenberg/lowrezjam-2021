@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using Road;
 using UnityEngine;
 
@@ -11,20 +13,33 @@ namespace Car
 
         public GameObject CarPrefab;
 
+        public float MinDistance = 5F;
+
         private int _spawnedCars = 0;
+        private List<Vector3> _spawnedPositions;
+
+        private void Start()
+        {
+            _spawnedPositions = new List<Vector3>();
+        }
 
         private void Update()
         {
-            while (_spawnedCars <= CarCount)
+            if (_spawnedCars <= CarCount)
             {
                 var navigationPoint = RoadNavMesh.NavigationPoints[Random.Range(0, RoadNavMesh.NavigationPoints.Count)];
-                var nextPoint = navigationPoint.NextPoints[0];
-                var rotation = Quaternion.AngleAxis(Vector3.SignedAngle(Vector3.forward, nextPoint.Position - navigationPoint.Position, Vector3.up),
-                    Vector3.up);
+                if (_spawnedPositions.Count == 0
+                    || _spawnedPositions.Min(position => Vector3.Distance(position, navigationPoint.Position)) > MinDistance)
+                {
+                    var nextPoint = navigationPoint.NextPoints[0];
+                    var rotation = Quaternion.AngleAxis(Vector3.SignedAngle(Vector3.forward, nextPoint.Position - navigationPoint.Position, Vector3.up),
+                        Vector3.up);
 
-                Instantiate(CarPrefab, navigationPoint.Position, rotation);
+                    Instantiate(CarPrefab, navigationPoint.Position, rotation);
 
-                _spawnedCars++;
+                    _spawnedPositions.Add(navigationPoint.Position);
+                    _spawnedCars++;
+                }
             }
         }
     }
