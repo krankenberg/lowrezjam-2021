@@ -3553,6 +3553,7 @@ MonoBehaviour:
   ScoreModifierForMaxSpeed: 1
   PointsLostPerSecondStanding: 0.5
   BasePointsLostForCrash: 25
+  MaxDistanceToStreetForGettingPoints: 1
 --- !u!1 &744807162
 GameObject:
   m_ObjectHideFlags: 0
@@ -11128,6 +11129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AccelerationSpeed: 5
   NaturalDecelerationSpeed: 5
+  MaxBrakingSpeed: 20
   MaxVelocity: 10
   MaxBackwardsVelocity: 5
   RotationSpeed: 120

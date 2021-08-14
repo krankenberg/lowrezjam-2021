@@ -8,6 +8,7 @@ namespace Car
     {
         public float AccelerationSpeed = 1F;
         public float NaturalDecelerationSpeed = 1F;
+        public float MaxBrakingSpeed = 30F;
         public float MaxVelocity = 10F;
         public float MaxBackwardsVelocity = 5F;
         public float RotationSpeed = 1F;
@@ -37,8 +38,13 @@ namespace Car
             _currentVelocity = GetCurrentVelocity();
 
             var vertical = Input.GetAxisRaw("Vertical");
+            var braking = (Input.GetAxisRaw("Jump") + Input.GetAxisRaw("Fire1") + Input.GetAxisRaw("Fire2") + Input.GetAxisRaw("Fire3")) > 0.2F;
 
-            if (Math.Abs(vertical) > GlobalGameState.Tolerance)
+            if (braking)
+            {
+                _currentVelocity = Mathf.MoveTowards(_currentVelocity, 0, MaxBrakingSpeed * Time.deltaTime);
+            }
+            else if (Math.Abs(vertical) > GlobalGameState.Tolerance)
             {
                 AccelerateOrDecelerate(vertical);
             }
