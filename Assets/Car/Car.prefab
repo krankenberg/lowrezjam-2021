@@ -50,9 +50,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentTarget: {x: -20.3, y: 0, z: -20.66}
   Speed: 4
-  PositionReachedDistance: 0.5
+  PositionReachedDistance: 0.25
   MaxRotationSpeed: 5
   LockingAngle: 15
+  LookAheadRange: 2
+  MaxAcceleration: 3
 --- !u!54 &2840759265203998272
 Rigidbody:
   m_ObjectHideFlags: 0

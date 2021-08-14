@@ -10,6 +10,8 @@ namespace Car
         public float PositionReachedDistance = 0.5F;
         public float MaxRotationSpeed = 1F;
         public int LockingAngle = 15;
+        public float LookAheadRange = 2F;
+        public float MaxAcceleration = 0.1F;
 
         private RoadNavMesh _roadNavMesh;
         private Transform _transform;
@@ -40,7 +42,7 @@ namespace Car
                     }
 
                     var direction = (_currentTargetNavigationPoint.Position - _transform.position).normalized;
-                    _rigidbody.velocity = direction * Speed;
+                    _rigidbody.velocity = direction * Mathf.MoveTowards(_rigidbody.velocity.magnitude, Speed, MaxAcceleration * Time.deltaTime);
                     var angle = SnapRotationToLockingAngle(Vector3.SignedAngle(Vector3.forward, direction, Vector3.up));
                     _rigidbody.angularVelocity = Vector3.zero;
                     _rigidbody.MoveRotation(Quaternion.RotateTowards(_transform.rotation, Quaternion.Euler(0, angle, 0), MaxRotationSpeed));
