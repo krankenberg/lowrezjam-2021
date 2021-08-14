@@ -10,6 +10,11 @@ namespace Score
     {
         public Text Text;
         public Text HighScoreText;
+        public NegativePointScript NegativePointScript;
+
+        public float ColorChangeSpeed = 3F;
+        public Color PositiveColor;
+        public Color NegativeColor;
 
         public int TopTextsTop = 1;
         public int BottomTextsTop = 56;
@@ -77,18 +82,24 @@ namespace Score
             if (speed < MinSpeedToGainPoints || distanceToRoad > MaxDistanceToStreetForGettingPoints)
             {
                 _score -= Time.deltaTime * PointsLostPerSecondStanding;
+                Text.color = Color.Lerp(Text.color, NegativeColor, Time.deltaTime * ColorChangeSpeed);
             }
             else
             {
                 var scoreModifier = 1 + (speed - MinSpeedToGainPoints) / (MaxSpeed - MinSpeedToGainPoints) * ScoreModifierForMaxSpeed;
                 _score += Time.deltaTime * scoreModifier;
+                Text.color = Color.Lerp(Text.color, PositiveColor, Time.deltaTime * ColorChangeSpeed);
             }
 
             while (_pointEvents.Count > 0)
             {
                 var pointEvent = _pointEvents.Dequeue();
-                Debug.Log("Processing pointEvent: " + pointEvent);
                 _score += pointEvent.Points;
+
+                if (pointEvent.Position.HasValue)
+                {
+                    NegativePointScript.Show(pointEvent.Position.Value, Mathf.RoundToInt(pointEvent.Points));
+                }
             }
 
             _score = Mathf.Clamp(_score, 0, 999999);

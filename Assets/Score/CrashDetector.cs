@@ -40,7 +40,7 @@ namespace Score
             if (!_recentlyCollidedTransforms.Contains(otherTransform))
             {
                 var velocityDifference = other.relativeVelocity.magnitude;
-                ScoreUI.Crash(velocityDifference, otherTransform.position);
+                ScoreUI.Crash(velocityDifference, other.GetContact(0).point);
 
                 _recentlyCollidedTransforms.Add(otherTransform);
                 _recentlyCollidedTransformsTimes.Add(CollisionToleranceTime);
