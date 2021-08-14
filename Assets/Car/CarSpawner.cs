@@ -26,24 +26,29 @@ namespace Car
 
         private void Update()
         {
-            if (_spawnedCars <= CarCount)
+            var maxTries = 2000;
+            var count = 0;
+
+            while (_spawnedCars <= CarCount)
             {
-                for (int i = 0; i < 5; i++)
+                count++;
+                var navigationPoint = RoadNavMesh.NavigationPoints[Random.Range(0, RoadNavMesh.NavigationPoints.Count)];
+                if (_spawnedPositions.Count == 0
+                    || _spawnedPositions.Min(position => Vector3.Distance(position, navigationPoint.Position)) > MinDistance)
                 {
-                    var navigationPoint = RoadNavMesh.NavigationPoints[Random.Range(0, RoadNavMesh.NavigationPoints.Count)];
-                    if (_spawnedPositions.Count == 0
-                        || _spawnedPositions.Min(position => Vector3.Distance(position, navigationPoint.Position)) > MinDistance)
-                    {
-                        var nextPoint = navigationPoint.NextPoints[0];
-                        var rotation = Quaternion.AngleAxis(Vector3.SignedAngle(Vector3.forward, nextPoint.Position - navigationPoint.Position, Vector3.up),
-                            Vector3.up);
+                    var nextPoint = navigationPoint.NextPoints[0];
+                    var rotation = Quaternion.AngleAxis(Vector3.SignedAngle(Vector3.forward, nextPoint.Position - navigationPoint.Position, Vector3.up),
+                        Vector3.up);
 
-                        Instantiate(CarPrefab, navigationPoint.Position, rotation);
+                    Instantiate(CarPrefab, navigationPoint.Position, rotation);
 
-                        _spawnedPositions.Add(navigationPoint.Position);
-                        _spawnedCars++;
-                        return;
-                    }
+                    _spawnedPositions.Add(navigationPoint.Position);
+                    _spawnedCars++;
+                }
+
+                if (count > maxTries)
+                {
+                    _spawnedCars = CarCount;
                 }
             }
         }
