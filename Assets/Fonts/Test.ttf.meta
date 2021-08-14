@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 6f232436c48a5494d8f1a361fabcff9c
+guid: 9fd689bdf264a5c48b09dcdff2284075
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
+  fontSize: 5
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Roboto Mono
+  - Test
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
