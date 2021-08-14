@@ -1,5 +1,5 @@
 name: Build WebGL Version
-on: [ push ]
+on: [ workflow_dispatch ] # [ push ]
 jobs:
   build-game:
     runs-on: ubuntu-latest
