@@ -2218,6 +2218,7 @@ MonoBehaviour:
   RoadNavMesh: {fileID: 822419034}
   CarCount: 16
   CarPrefab: {fileID: 2840759265203998276, guid: 1d976d1c3c5a6b44d9485e6a80ba75b6, type: 3}
+  MinDistance: 5
 --- !u!1 &583119284
 GameObject:
   m_ObjectHideFlags: 0
@@ -5130,6 +5131,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 2104d58fffb20be4ea51814bb2fe65f7, type: 2}
     Copy: 0
     CopiedIndex: 0
@@ -5150,7 +5152,7 @@ MonoBehaviour:
     - Position: {x: 0, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 0400000002000000
+      NextPointsIndices: 040000000f000000
     - Position: {x: 1.4, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
@@ -5162,16 +5164,16 @@ MonoBehaviour:
     - Position: {x: 6, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 07000000
+      NextPointsIndices: 070000000e000000
     - Position: {x: 4, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 0d00000009000000
+      NextPointsIndices: 0d000000
     - Position: {x: 0, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
-    - Position: {x: 2.6, y: 0, z: 3}
+    - Position: {x: 2.8, y: 0, z: 2.8}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 0a000000
@@ -5191,6 +5193,24 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 08000000
+    - Position: {x: 4, y: 0, z: 3.6}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 09000000
+    - Position: {x: 3, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 02000000
+    TrafficLightPhases:
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 070000000f0000000e000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0b000000010000000e000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0f000000040000000b000000
   - Tile: {fileID: 11400000, guid: 078d672d0457b624ea90e55ea9b42234, type: 2}
     Copy: 1
     CopiedIndex: 0
@@ -5212,6 +5232,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 6eb8b511c0b4f41449e05ec9844a9234, type: 2}
     Copy: 0
     CopiedIndex: 0
@@ -5249,6 +5270,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 02000000
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 31d64d24f5c90ff4dbb83ecc91e844fa, type: 2}
     Copy: 0
     CopiedIndex: 0
@@ -5286,6 +5308,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 0b180efd81c616c45b7b74ebc1c69765, type: 2}
     Copy: 0
     CopiedIndex: 0
@@ -5387,6 +5410,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 08000000
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 78a03e4442b62a34dbbf60f9d618c4dd, type: 2}
     Copy: 1
     CopiedIndex: 1
@@ -5407,7 +5431,7 @@ MonoBehaviour:
     - Position: {x: 1.9999999, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 0400000002000000
+      NextPointsIndices: 040000000f000000
     - Position: {x: 1.4, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
@@ -5419,16 +5443,16 @@ MonoBehaviour:
     - Position: {x: 4, y: 0, z: 0.00000023841858}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 07000000
+      NextPointsIndices: 070000000e000000
     - Position: {x: 4, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 0d00000009000000
+      NextPointsIndices: 0d000000
     - Position: {x: 3.9999998, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
-    - Position: {x: 3, y: 0, z: 3.4}
+    - Position: {x: 2.8, y: 0, z: 3.2}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 0a000000
@@ -5448,6 +5472,24 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 08000000
+    - Position: {x: 3.6, y: 0, z: 2}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 09000000
+    - Position: {x: 2, y: 0, z: 3}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 02000000
+    TrafficLightPhases:
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 070000000f0000000e000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0b000000010000000e000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0f000000040000000b000000
   - Tile: {fileID: 11400000, guid: f5a679f3b8ecacb4494d4c77b3ace4ee, type: 2}
     Copy: 1
     CopiedIndex: 1
@@ -5468,7 +5510,7 @@ MonoBehaviour:
     - Position: {x: 6, y: 0, z: 3.9999998}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 0400000002000000
+      NextPointsIndices: 040000000f000000
     - Position: {x: 4.6000004, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
@@ -5480,16 +5522,16 @@ MonoBehaviour:
     - Position: {x: 0, y: 0, z: 2.0000002}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 07000000
+      NextPointsIndices: 070000000e000000
     - Position: {x: 1.9999999, y: 0, z: 2}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 0d00000009000000
+      NextPointsIndices: 0d000000
     - Position: {x: 6, y: 0, z: 1.9999998}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
-    - Position: {x: 3.4, y: 0, z: 3}
+    - Position: {x: 3.2, y: 0, z: 3.2}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 0a000000
@@ -5509,6 +5551,24 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 08000000
+    - Position: {x: 2, y: 0, z: 2.4}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 09000000
+    - Position: {x: 3, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 02000000
+    TrafficLightPhases:
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 070000000f0000000e000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0b000000010000000e000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0f000000040000000b000000
   - Tile: {fileID: 11400000, guid: 91ae24a153902db4e87a8d881f383fa3, type: 2}
     Copy: 1
     CopiedIndex: 1
@@ -5529,7 +5589,7 @@ MonoBehaviour:
     - Position: {x: 3.9999998, y: 0, z: 0}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 0400000002000000
+      NextPointsIndices: 040000000f000000
     - Position: {x: 4.6, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
@@ -5541,16 +5601,16 @@ MonoBehaviour:
     - Position: {x: 2.0000002, y: 0, z: 6}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 07000000
+      NextPointsIndices: 070000000e000000
     - Position: {x: 2, y: 0, z: 4}
       Occupied: 0
       ParkingLot: 0
-      NextPointsIndices: 0d00000009000000
+      NextPointsIndices: 0d000000
     - Position: {x: 1.9999999, y: 0, z: 0.00000023841858}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
-    - Position: {x: 3, y: 0, z: 2.6}
+    - Position: {x: 3.2, y: 0, z: 2.8}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 0a000000
@@ -5570,6 +5630,24 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 08000000
+    - Position: {x: 2.4, y: 0, z: 4}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 09000000
+    - Position: {x: 4, y: 0, z: 3}
+      Occupied: 0
+      ParkingLot: 0
+      NextPointsIndices: 02000000
+    TrafficLightPhases:
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 070000000f0000000e000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0b000000010000000e000000
+    - TimeInPhase: 10
+      TimeUntilNextPhase: 5
+      BlockedNavigationPointsIndices: 0f000000040000000b000000
   - Tile: {fileID: 11400000, guid: 91f00813d2f94ef49bb539912a43b635, type: 2}
     Copy: 1
     CopiedIndex: 3
@@ -5607,6 +5685,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 02000000
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 6e800ae30aca43c459bbebd370732413, type: 2}
     Copy: 1
     CopiedIndex: 3
@@ -5644,6 +5723,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 02000000
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: a7096c3c6dcbf17458546d93ef558072, type: 2}
     Copy: 1
     CopiedIndex: 3
@@ -5681,6 +5761,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 02000000
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 03a750559cd54ef45898e500088f591d, type: 2}
     Copy: 1
     CopiedIndex: 4
@@ -5718,6 +5799,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 28c79c8db5ccbd443b00b8c0454959b1, type: 2}
     Copy: 1
     CopiedIndex: 4
@@ -5755,6 +5837,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
+    TrafficLightPhases: []
   - Tile: {fileID: 11400000, guid: 5ba9c8611944fc8468418ddb5b69931b, type: 2}
     Copy: 1
     CopiedIndex: 4
@@ -5792,6 +5875,7 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
+    TrafficLightPhases: []
   RecreateCopiedTileNavigationPoints: 0
   RecreateRoadNavMesh: 0
   NavigationMeshInitialized: 0
@@ -5896,7 +5980,7 @@ MonoBehaviour:
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -26.6, y: 0, z: -27}
+  - Position: {x: -26.8, y: 0, z: -26.8}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -5913,6 +5997,14 @@ MonoBehaviour:
     ParkingLot: 0
     NextPointsIndices: 
   - Position: {x: -26, y: 0, z: -28}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -28, y: 0, z: -27.6}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -27, y: 0, z: -26}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6104,7 +6196,7 @@ MonoBehaviour:
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -9, y: 0, z: -27.4}
+  - Position: {x: -8.8, y: 0, z: -27.2}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6121,6 +6213,14 @@ MonoBehaviour:
     ParkingLot: 0
     NextPointsIndices: 
   - Position: {x: -10, y: 0, z: -28}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -9.6, y: 0, z: -26}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -8, y: 0, z: -27}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6248,7 +6348,7 @@ MonoBehaviour:
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -9, y: 0, z: 3.4}
+  - Position: {x: -9.2, y: 0, z: 3.2}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6265,6 +6365,14 @@ MonoBehaviour:
     ParkingLot: 0
     NextPointsIndices: 
   - Position: {x: -8, y: 0, z: 4}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -8.4, y: 0, z: 2}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: -10, y: 0, z: 3}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6424,7 +6532,7 @@ MonoBehaviour:
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: 8.6, y: 0, z: 15}
+  - Position: {x: 8.8, y: 0, z: 14.8}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6441,6 +6549,14 @@ MonoBehaviour:
     ParkingLot: 0
     NextPointsIndices: 
   - Position: {x: 8, y: 0, z: 16}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: 10, y: 0, z: 15.6}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: 9, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6520,7 +6636,7 @@ MonoBehaviour:
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: 21, y: 0, z: -15.4}
+  - Position: {x: 21.2, y: 0, z: -15.2}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6537,6 +6653,14 @@ MonoBehaviour:
     ParkingLot: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: -16}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: 20.4, y: 0, z: -14}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: 22, y: 0, z: -15}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6592,7 +6716,7 @@ MonoBehaviour:
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: 20.6, y: 0, z: 15}
+  - Position: {x: 20.8, y: 0, z: 14.8}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6609,6 +6733,14 @@ MonoBehaviour:
     ParkingLot: 0
     NextPointsIndices: 
   - Position: {x: 20, y: 0, z: 16}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: 22, y: 0, z: 15.6}
+    Occupied: 0
+    ParkingLot: 0
+    NextPointsIndices: 
+  - Position: {x: 21, y: 0, z: 14}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 

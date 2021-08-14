@@ -18,10 +18,20 @@ namespace Road
 
         public List<NavigationPoint> NavigationPoints;
 
+        private List<Junction> _junctions;
+
         private void Start()
         {
             CreateRoadNavMesh();
             NavigationMeshInitialized = true;
+        }
+
+        private void Update()
+        {
+            foreach (var junction in _junctions)
+            {
+                junction.Update(Time.deltaTime);
+            }
         }
 
         private void OnValidate()
@@ -64,6 +74,17 @@ namespace Road
                 {
                     tileNavigationPoints.NavigationPoints.Clear();
                     var copiedTileNavigationPoints = TileNavigationPoints[tileNavigationPoints.CopiedIndex];
+                    tileNavigationPoints.TrafficLightPhases = new List<TrafficLightPhase>();
+                    foreach (var trafficLightPhase in copiedTileNavigationPoints.TrafficLightPhases)
+                    {
+                        tileNavigationPoints.TrafficLightPhases.Add(new TrafficLightPhase()
+                        {
+                            BlockedNavigationPointsIndices = trafficLightPhase.BlockedNavigationPointsIndices,
+                            TimeInPhase = trafficLightPhase.TimeInPhase,
+                            TimeUntilNextPhase = trafficLightPhase.TimeUntilNextPhase
+                        });
+                    }
+
                     foreach (var navigationPoint in copiedTileNavigationPoints.NavigationPoints)
                     {
                         var newNavigationPoint = new NavigationPoint
@@ -91,13 +112,14 @@ namespace Road
 
         private void CreateRoadNavMesh()
         {
-            var navigationPointsByTile = new Dictionary<TileBase, List<NavigationPoint>>();
+            var navigationPointsByTile = new Dictionary<TileBase, TileNavigationPoints>();
             foreach (var tileNavigationPoints in TileNavigationPoints)
             {
-                navigationPointsByTile[tileNavigationPoints.Tile] = tileNavigationPoints.NavigationPoints;
+                navigationPointsByTile[tileNavigationPoints.Tile] = tileNavigationPoints;
             }
 
             NavigationPoints = new List<NavigationPoint>();
+            _junctions = new List<Junction>();
 
             var tilemap = GetComponent<Tilemap>();
             var tilemapBounds = tilemap.cellBounds;
@@ -113,7 +135,8 @@ namespace Road
                     {
                         var tileOrigin = tilemap.CellToWorld(new Vector3Int(x, y, 0)) + tilemapOffset;
 
-                        var navigationPoints = navigationPointsByTile[tile];
+                        var tileNavigationPoints = navigationPointsByTile[tile];
+                        var navigationPoints = tileNavigationPoints.NavigationPoints;
                         var tilesNewNavigationPoints = new NavigationPoint[navigationPoints.Count];
                         for (var i = 0; i < navigationPoints.Count; i++)
                         {
@@ -146,6 +169,32 @@ namespace Road
                                 tilesNewNavigationPoints[navigationPointConnectedPointsIndex].PreviousPoints.Add(tilesNewNavigationPoints[i]);
                             }
                         }
+
+                        if (tileNavigationPoints.TrafficLightPhases.Count > 0)
+                        {
+                            // Create Junction
+                            var allJunctionPoints = new List<NavigationPoint>(tilesNewNavigationPoints);
+                            var phases = new List<TrafficLightPhaseResolved>();
+
+                            foreach (var trafficLightPhase in tileNavigationPoints.TrafficLightPhases)
+                            {
+                                var blockedNavigationPoints = new List<NavigationPoint>();
+
+                                foreach (var blockedNavigationPointsIndex in trafficLightPhase.BlockedNavigationPointsIndices)
+                                {
+                                    blockedNavigationPoints.Add(tilesNewNavigationPoints[blockedNavigationPointsIndex]);
+                                }
+
+                                phases.Add(new TrafficLightPhaseResolved
+                                {
+                                    BlockedNavigationPoints = blockedNavigationPoints,
+                                    TimeInPhase = trafficLightPhase.TimeInPhase,
+                                    TimeUntilNextPhase = trafficLightPhase.TimeUntilNextPhase
+                                });
+                            }
+
+                            _junctions.Add(new Junction(allJunctionPoints, phases));
+                        }
                     }
                 }
             }
@@ -168,6 +217,11 @@ namespace Road
                                 {
                                     previousPoint.NextPoints.Remove(otherPoint);
                                     previousPoint.NextPoints.Add(point);
+                                }
+
+                                foreach (var junction in _junctions)
+                                {
+                                    junction.ReplaceNavigationPoint(otherPoint, point);
                                 }
 
                                 point.NextPoints.AddRange(otherPoint.NextPoints);
@@ -200,7 +254,7 @@ namespace Road
             {
                 foreach (var navigationPoint in NavigationPoints)
                 {
-                    Gizmos.color = Color.green;
+                    Gizmos.color = navigationPoint.Occupied ? Color.red : Color.green;
                     Gizmos.DrawWireSphere(navigationPoint.Position, 0.25F);
                     Handles.Label(navigationPoint.Position, "" + navigationPoint.InitialIndex);
 

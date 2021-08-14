@@ -11,5 +11,6 @@ namespace Road
         public int CopiedIndex;
         public int CopiedRotatedBy;
         public List<NavigationPoint> NavigationPoints;
+        public List<TrafficLightPhase> TrafficLightPhases;
     }
 }
