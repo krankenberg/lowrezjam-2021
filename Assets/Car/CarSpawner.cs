@@ -15,11 +15,12 @@ namespace Car
 
         public float MinDistance = 5F;
 
-        private int _spawnedCars = 0;
+        public int _spawnedCars = 0;
         private List<Vector3> _spawnedPositions;
 
         private void Start()
         {
+            _spawnedCars = 0;
             _spawnedPositions = new List<Vector3>();
         }
 
