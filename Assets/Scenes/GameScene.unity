@@ -5323,19 +5323,19 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
-    - Position: {x: 2.6, y: 0, z: 3}
+    - Position: {x: 3.4, y: 0, z: 2.4}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 09000000
-    - Position: {x: 2, y: 0, z: 1.6}
+    - Position: {x: 2.6, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 05000000
-    - Position: {x: 4, y: 0, z: 1.6}
+    - Position: {x: 3.4, y: 0, z: 1.4}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 13000000
-    - Position: {x: 3.4, y: 0, z: 3}
+    - Position: {x: 2.6, y: 0, z: 3.6}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 10000000
@@ -5355,35 +5355,35 @@ MonoBehaviour:
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 
-    - Position: {x: 4, y: 0, z: 4.3999996}
+    - Position: {x: 3.4, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 0f000000
-    - Position: {x: 2, y: 0, z: 4.4}
+    - Position: {x: 2.6, y: 0, z: 4.6}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 12000000
-    - Position: {x: 3, y: 0, z: 2.6}
+    - Position: {x: 3.6, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 15000000
-    - Position: {x: 3, y: 0, z: 3.4}
+    - Position: {x: 2.4, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 16000000
-    - Position: {x: 1.6, y: 0, z: 2}
+    - Position: {x: 1.4, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 0b000000
-    - Position: {x: 4.4, y: 0, z: 2}
+    - Position: {x: 4.6, y: 0, z: 2.6}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 02000000
-    - Position: {x: 1.6, y: 0, z: 4}
+    - Position: {x: 1.4, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 07000000
-    - Position: {x: 4.4, y: 0, z: 4}
+    - Position: {x: 4.6, y: 0, z: 3.4}
       Occupied: 0
       ParkingLot: 0
       NextPointsIndices: 08000000
@@ -6156,19 +6156,19 @@ MonoBehaviour:
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -9.4, y: 0, z: -9}
+  - Position: {x: -8.6, y: 0, z: -9.6}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -10, y: 0, z: -10.4}
+  - Position: {x: -9.4, y: 0, z: -10.6}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -8, y: 0, z: -10.4}
+  - Position: {x: -8.6, y: 0, z: -10.6}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -8.6, y: 0, z: -9}
+  - Position: {x: -9.4, y: 0, z: -8.4}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
@@ -6188,35 +6188,35 @@ MonoBehaviour:
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -8, y: 0, z: -7.6}
+  - Position: {x: -8.6, y: 0, z: -7.4}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -10, y: 0, z: -7.6}
+  - Position: {x: -9.4, y: 0, z: -7.4}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -9, y: 0, z: -9.4}
+  - Position: {x: -8.4, y: 0, z: -8.6}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -9, y: 0, z: -8.6}
+  - Position: {x: -9.6, y: 0, z: -9.4}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -10.4, y: 0, z: -10}
+  - Position: {x: -10.6, y: 0, z: -9.4}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -7.6, y: 0, z: -10}
+  - Position: {x: -7.4, y: 0, z: -9.4}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -10.4, y: 0, z: -8}
+  - Position: {x: -10.6, y: 0, z: -8.6}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
-  - Position: {x: -7.6, y: 0, z: -8}
+  - Position: {x: -7.4, y: 0, z: -8.6}
     Occupied: 0
     ParkingLot: 0
     NextPointsIndices: 
