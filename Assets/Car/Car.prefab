@@ -53,7 +53,7 @@ MonoBehaviour:
   PositionReachedDistance: 0.25
   MaxRotationSpeed: 5
   LockingAngle: 15
-  LookAheadRange: 2
+  LookAheadRange: 1
   MaxAcceleration: 3
 --- !u!54 &2840759265203998272
 Rigidbody:
