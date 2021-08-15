@@ -8,7 +8,7 @@ Beware, this is Game Jam Code, thus not very clean or elegant or performant or g
 
 # Video
 
-[Small Video can be seen here:](https://streamable.com/2z61wi)
+[Small Video can be seen here](https://streamable.com/2z61wi)
 
 # Screenshots
 
